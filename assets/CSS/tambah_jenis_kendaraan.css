@@ -1,0 +1,92 @@
+/* Global Styling */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+} */
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    border-radius: 7px;
+    background-color: #ffffff;
+    border-top: 4px solid green;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.input-group:first-of-type {
+    margin-top: 35px;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-icon i {
+    position: absolute;
+    left: 20px;
+}
+
+.pure-form input[type=color],
+.pure-form input[type=date],
+.pure-form input[type=datetime-local],
+.pure-form input[type=datetime],
+.pure-form input[type=email],
+.pure-form input[type=month],
+.pure-form input[type=number],
+.pure-form input[type=password],
+.pure-form input[type=search],
+.pure-form input[type=tel],
+.pure-form input[type=text],
+.pure-form input[type=time],
+.pure-form input[type=url],
+.pure-form input[type=week],
+.pure-form select,
+.pure-form textarea {
+    padding-left: 50px;
+}
+
+.btn-submit,
+.btn-cancel {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.btn-submit {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+
+.btn-cancel {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-cancel:hover {
+    background-color: #c82333;
+}
