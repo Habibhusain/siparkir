@@ -1,6 +1,5 @@
 <?php include 'header.php'; ?>
 <?php include 'sidebar.php'; ?>
-
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (edit_kendaraan_masuk()) {

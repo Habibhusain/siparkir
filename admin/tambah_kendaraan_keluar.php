@@ -1,6 +1,5 @@
 <?php include 'header.php'; ?>
 <?php include 'sidebar.php'; ?>
-
 <?php
 // Mendapatkan id_parkir dari parameter URL
 $id_parkir = $_GET['id'] ?? null;

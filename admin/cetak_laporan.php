@@ -4,7 +4,6 @@ require_once '../config/config.php';
 // Get start and end date from query parameters
 $startDate = isset($_GET['startDate']) ? $_GET['startDate'] : null;
 $endDate = isset($_GET['endDate']) ? $_GET['endDate'] : null;
-
 ?>
 
 <!DOCTYPE html>

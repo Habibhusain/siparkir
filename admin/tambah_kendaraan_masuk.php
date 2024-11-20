@@ -1,6 +1,5 @@
 <?php include 'header.php'; ?>
 <?php include 'sidebar.php'; ?>
-
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (tambah_kendaraan_masuk()) {
